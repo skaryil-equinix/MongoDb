@@ -1,12 +1,10 @@
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
-
 
 /**
  * MongoDb class simulates a MongoDb database
