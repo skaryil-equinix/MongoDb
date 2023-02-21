@@ -5,7 +5,7 @@ import org.json.JSONObject;
 public class Main {
     public static void main(String[] args) {
 
-        MongoDb db = new MongoDb("test"); // create a DB
+        MongoDb db = new MongoDb("athlete"); // create a DB
 
         //Creating collections
         db.createCollection("footballer");
@@ -14,7 +14,7 @@ public class Main {
 
         JSONObject cricketerObject1 = new JSONObject();
         cricketerObject1.put("name", "sherinkk");
-        cricketerObject1.put("age", "23");
+        cricketerObject1.put("jersey_number", "23");
 
         JSONObject cricketerObject2 = new JSONObject();
         cricketerObject2.put("name", "ab de villers");
